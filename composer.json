@@ -1,0 +1,20 @@
+{
+    "name": "warl/payment-proto",
+    "description": "Payment integration example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eugene Babushkin",
+            "email": "eugene.babushkin@corp.badoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PaymentProto\\": "."
+        }
+    }
+}
