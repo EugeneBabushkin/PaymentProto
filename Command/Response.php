@@ -30,6 +30,10 @@ class Response
      */
     public function getFormAndValidate()
     {
+        if (!$this->validateForm()) {
+            // throw Exception..
+        }
+
         return $this->form;
     }
 }
